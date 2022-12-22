@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+main()
+{
+int rollnumber;
+float aggregate;
+char section;
+string name;
+name = "noorulhuda";
+rollnumber= 60;
+aggergate = 84.92;
+section ='b';
+cout<<"my name is " <<name;
+cout<<" roll number is " <<rollnumber;
+cout<<" section is " <<section;
+cout<<" aggregate is " <<aggregate;
+}   

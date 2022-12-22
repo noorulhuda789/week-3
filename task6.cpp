@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+main()
+{
+float matric,inter,ecat;
+float matricper,interper,ecatper,matricaggre,interaggre,ecataggre,totalaggregate;
+cout<<"enter matric marks " ;
+cin>>matric;
+cout<<"enter intermediate marks " ;
+cin>>inter;
+cout<<" enter ecat marks ";
+cin>>ecat;
+matricper= matric/1100*100;
+interper=inter/550*100;
+ecatper=ecat/400*100;
+matricaggre=matricper*0.1;
+interaggre=interper*0.4;
+ecataggre=ecatper*0.5;
+totalaggregate=matricaggre+interaggre+ecataggre;
+cout<<"total aggregate  "  <<totalaggregate;
+}
+

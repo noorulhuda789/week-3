@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+main()
+{
+int dollar;
+float convert,toatlrupee;
+convert =200;
+cout<<"enter dollar  ";
+cin>> dollar;
+totalrupee = convert *dollar
+cout<<"total rupees is  "  <<totalrupee;
+}
