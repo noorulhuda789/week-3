@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+main()
+{
+int mark1,mark2,mark3,mark4,mark5,totalmark;
+string name;
+float per;
+cout<<"enter name";
+cin>>name;
+cout<<"enter 1 subject marks";
+cin>>mark1;
+cout<<"enter 2 subject mark";
+cin>>mark2;
+cout<<"enter 3 subject mark";
+cin>>mark3;
+cout<<"enter 4 subject mark";
+cin>>mark4;
+cout<<"enter 5 subject mark";
+cin>>mark5;
+totalmark=mark1+mark2+mark3+mark4+mark5;
+per=totalmark/500 *100;
+cout<<"name of student is" <<name;
+cout<<"percentage is"  <<per;
+}
+

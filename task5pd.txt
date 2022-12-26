@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+main()
+{
+int daywant,dayrequire,total;
+dayreqire=15;
+cout<<"enter days you want ";
+cin>>daywant;
+total=daywant*dayrequire;
+cout<<"total days" <<total;
+}

@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+main()
+{
+int sizeinpound,costofbag,area,perpound,cost;
+cout<<"enter prize of one pound";
+cin>>sizeinpound;
+cout<<"enter cost of a bag";
+cin>>costofbag;
+cout<<"enter area ";
+cin>>area;
+perpound=costofbag/sizeinpound;
+cost=costofbag*area;
+cout<<"cost of fertilizer per pound " <<perpound <<endl;
+cout<<"cost if fertilizer per area  " <<cost;
+}
+ 
